@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="project quiz.css">
+        </head>
+    <body>
+        <nav>
+        <ul>
+        <li><a href="#Form">Form</a></li>
+        <li><a href="#Quiz">Quiz</a></li>
+        <li><a href="#Score">Score</a></li>
+        </ul>
+        </nav>
+        <section id="Form">
+            <h2>Your personal informations</h2>
+            <form>
+            <div>
+                <label>First Name :</label>
+                <input type="text" id="Fname" placeholder="Enter your first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name :</label>
+                <input type="text" id="Lname" placeholder="Enter your last name">
+            </div>
+            <br>
+            <div>
+                <label>Address email :</label>
+                <input type="email" id="Email" placeholder="example : fake123@gmail.com">
+            </div>
+            <br>
+            <div>
+            <label>Birth date :</label>
+            <input type="date" id="Date">
+            </div>
+            <br>
+        </form>
+        </section>
+        <section id="Quiz">
+            <h2>Let's begin</h2>
+            <p>Who's the national team that never won the World cup ?</p>
+            <label for="Brazil">Brazil</label>
+            <input type="radio" id="B">
+            <label for="Holland">Holland</label>
+            <input type="radio" id="H">
+            <label for="France">France</label>
+            <input type="radio" id="F">
+            <br>
+            <p>When Cristiano Ronaldo was born ?</p>
+            <label for="1990">1990</label>
+            <input type="radio" id="OP">
+            <label for="1985">1985</label>
+            <input type="radio" id="IT">
+            <label for="1995">1995</label>
+            <input type="radio" id="OT">
+            <br>
+            <p>Where does Neymar Jr started his career in the football category ?</p>
+            <label for="Santos">Santos</label>
+            <input type="radio" id="S">
+            <label for="Fluminense Fc">Fluminense Fc</label>
+            <input type="radio" id="FC">
+            <label for="Flamengo Fc">Flamengo Fc</label>
+            <input type="radio" id="C">
+            <br>
+            <p>How many Champions league cups at Real Madrid ?</p>
+            <label>9</label>
+            <input type="radio" id="O">
+            <label>18</label>
+            <input type="radio" id="AO">
+            <label>15</label>
+            <input type="radio" id="AT">
+            <br>
+            <p>Who's the league that has the most achievements in Europe</p>
+            <label for="Premier League">Premier League</label>
+            <input type="radio" id="PL">
+            <label for="LA LIGA">LA LIGA</label>
+            <input type="radio" id="LIGA">
+            <label for="Serie A">Serie A</label>
+            <input type="radio" id="SA">
+            <br>
+        </section>
+            <section id="Score">
+                <button id="but" onclick="submission()">Submit</button>
+            </section>
+        <script src="project quiz.js"></script>
+    </body>
+</html>

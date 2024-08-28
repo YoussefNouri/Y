@@ -1,0 +1,34 @@
+body{
+    background-color: skyblue;
+}
+#Form{
+    text-align: center;
+    border: 20px dashed red;
+}
+#Form > h2{
+    color: red;
+}
+#Quiz
+{
+    text-align: center;
+    border: 20px dashed green;
+}
+#Quiz > h2{
+    color: green;
+}
+#Score{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+nav > ul > li{
+    display: inline;
+}
+nav > ul {
+    background-color: beige;
+    text-align: center;
+    border: 5px dashed beige;
+    border-radius: 50px;
+}
